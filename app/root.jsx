@@ -43,9 +43,8 @@ export default function App() {
   return (
     <Document>
       <Outlet />
-      <Link to="/posts">Posts</Link>
       <footer>
-        <p>This page was rendered at {data.date.toLocaleString()}</p>
+        <p> 새로고침한 시간 : {data.date.toLocaleString()}</p>
       </footer>
     </Document>
   );

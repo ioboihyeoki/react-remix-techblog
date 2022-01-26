@@ -9,7 +9,7 @@ export default function Posts() {
   const posts = useLoaderData();
   return (
     <div>
-      <h1>Posts</h1>
+      <h1>게시물 리스트</h1>
       <ul>
         {posts.map((post) => (
           <li key={post.slug}>
